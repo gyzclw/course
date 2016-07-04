@@ -1,0 +1,107 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+20160701051133_create_users.rb	db/migrate/20160701051133_create_users.rb	1;"	F	line:1
+20160701052139_add_password_digest_to_users.rb	db/migrate/20160701052139_add_password_digest_to_users.rb	1;"	F	line:1
+20160701055051_add_authentication_token_to_users.rb	db/migrate/20160701055051_add_authentication_token_to_users.rb	1;"	F	line:1
+APP_PATH	bin/rails	/^APP_PATH = File.expand_path('..\/config\/application', __dir__)$/;"	c	line:7
+APP_ROOT	bin/setup	/^APP_ROOT = Pathname.new File.expand_path('..\/..\/', __FILE__)$/;"	c	line:7
+APP_ROOT	bin/update	/^APP_ROOT = Pathname.new File.expand_path('..\/..\/', __FILE__)$/;"	c	line:7
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c	line:5
+ActiveSupport::TestCase	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c	line:5
+AddAuthenticationTokenToUsers	db/migrate/20160701055051_add_authentication_token_to_users.rb	/^class AddAuthenticationTokenToUsers < ActiveRecord::Migration[5.0]$/;"	c	line:1
+AddPasswordDigestToUsers	db/migrate/20160701052139_add_password_digest_to_users.rb	/^class AddPasswordDigestToUsers < ActiveRecord::Migration[5.0]$/;"	c	line:1
+Api	app/controllers/api/v1/base_controller.rb	/^class Api::V1::BaseController < ApplicationController$/;"	c	line:1
+Api	app/controllers/api/v1/sessions_controller.rb	/^class Api::V1::SessionsController < Api::V1::BaseController$/;"	c	line:1
+Api	app/controllers/api/v1/users_controller.rb	/^class Api::V1::UsersController < Api::V1::BaseController$/;"	c	line:1
+Api	app/helpers/api/v1/base_helper.rb	/^module Api::V1::BaseHelper$/;"	m	line:1
+Api	app/helpers/api/v1/sessions_helper.rb	/^module Api::V1::SessionsHelper$/;"	m	line:1
+Api	app/helpers/api/v1/users_helper.rb	/^module Api::V1::UsersHelper$/;"	m	line:1
+Api::V1::BaseController	app/controllers/api/v1/base_controller.rb	/^class Api::V1::BaseController < ApplicationController$/;"	c	line:1
+Api::V1::BaseHelper	app/helpers/api/v1/base_helper.rb	/^module Api::V1::BaseHelper$/;"	c	line:1
+Api::V1::SessionsController	app/controllers/api/v1/sessions_controller.rb	/^class Api::V1::SessionsController < Api::V1::BaseController$/;"	c	line:1
+Api::V1::SessionsHelper	app/helpers/api/v1/sessions_helper.rb	/^module Api::V1::SessionsHelper$/;"	c	line:1
+Api::V1::UsersController	app/controllers/api/v1/users_controller.rb	/^class Api::V1::UsersController < Api::V1::BaseController$/;"	c	line:1
+Api::V1::UsersHelper	app/helpers/api/v1/users_helper.rb	/^module Api::V1::UsersHelper$/;"	c	line:1
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	line:10	class:Course2
+ApplicationCable	app/channels/application_cable/channel.rb	/^module ApplicationCable$/;"	m	line:1
+ApplicationCable	app/channels/application_cable/connection.rb	/^module ApplicationCable$/;"	m	line:1
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c	line:1
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m	line:1
+ApplicationJob	app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	c	line:1
+ApplicationMailer	app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c	line:1
+ApplicationRecord	app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c	line:1
+Channel	app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	line:2	class:ApplicationCable
+Connection	app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	line:2	class:ApplicationCable
+Course2	config/application.rb	/^module Course2$/;"	m	line:9
+CreateUsers	db/migrate/20160701051133_create_users.rb	/^class CreateUsers < ActiveRecord::Migration[5.0]$/;"	c	line:1
+README	README.md	/^# README$/;"	h	line:1
+README.md	README.md	1;"	F	line:1
+User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c	line:1
+UserTest	test/models/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c	line:3
+api_error	app/controllers/api/v1/base_controller.rb	/^  def api_error(opts = {})$/;"	f	line:11	class:Api
+application.js	app/assets/javascripts/application.js	1;"	F	line:1
+application.rb	config/application.rb	1;"	F	line:1
+application_controller.rb	app/controllers/application_controller.rb	1;"	F	line:1
+application_controller_renderer.rb	config/initializers/application_controller_renderer.rb	1;"	F	line:1
+application_helper.rb	app/helpers/application_helper.rb	1;"	F	line:1
+application_job.rb	app/jobs/application_job.rb	1;"	F	line:1
+application_mailer.rb	app/mailers/application_mailer.rb	1;"	F	line:1
+application_record.rb	app/models/application_record.rb	1;"	F	line:1
+assets.rb	config/initializers/assets.rb	1;"	F	line:1
+authenticate_user!	app/controllers/api/v1/base_controller.rb	/^  def authenticate_user!$/;"	f	line:15	class:Api
+backtrace_silencers.rb	config/initializers/backtrace_silencers.rb	1;"	F	line:1
+base_controller.rb	app/controllers/api/v1/base_controller.rb	1;"	F	line:1
+base_helper.rb	app/helpers/api/v1/base_helper.rb	1;"	F	line:1
+boot.rb	config/boot.rb	1;"	F	line:1
+bundle	bin/bundle	1;"	F	line:1
+cable.js	app/assets/javascripts/cable.js	1;"	F	line:1
+change	db/migrate/20160701051133_create_users.rb	/^  def change$/;"	f	line:2	class:CreateUsers
+change	db/migrate/20160701052139_add_password_digest_to_users.rb	/^  def change$/;"	f	line:2	class:AddPasswordDigestToUsers
+change	db/migrate/20160701055051_add_authentication_token_to_users.rb	/^  def change$/;"	f	line:2	class:AddAuthenticationTokenToUsers
+channel.rb	app/channels/application_cable/channel.rb	1;"	F	line:1
+connection.rb	app/channels/application_cable/connection.rb	1;"	F	line:1
+cookies_serializer.rb	config/initializers/cookies_serializer.rb	1;"	F	line:1
+create	app/controllers/api/v1/sessions_controller.rb	/^  def create$/;"	f	line:2	class:Api
+create_params	app/controllers/api/v1/sessions_controller.rb	/^  def create_params$/;"	f	line:13	class:Api
+destroy_session	app/controllers/api/v1/base_controller.rb	/^  def destroy_session$/;"	f	line:7	class:Api
+development.rb	config/environments/development.rb	1;"	F	line:1
+environment.rb	config/environment.rb	1;"	F	line:1
+filter_parameter_logging.rb	config/initializers/filter_parameter_logging.rb	1;"	F	line:1
+generate_authentication_token	app/models/user.rb	/^  def generate_authentication_token$/;"	f	line:4	class:User
+inflections.rb	config/initializers/inflections.rb	1;"	F	line:1
+manifest.js	app/assets/config/manifest.js	1;"	F	line:1
+mime_types.rb	config/initializers/mime_types.rb	1;"	F	line:1
+new_framework_defaults.rb	config/initializers/new_framework_defaults.rb	1;"	F	line:1
+production.rb	config/environments/production.rb	1;"	F	line:1
+puma.rb	config/puma.rb	1;"	F	line:1
+rails	bin/rails	1;"	F	line:1
+rake	bin/rake	1;"	F	line:1
+reset_auth_token!	app/models/user.rb	/^ def reset_auth_token!$/;"	f	line:11	class:User
+routes.rb	config/routes.rb	1;"	F	line:1
+schema.rb	db/schema.rb	1;"	F	line:1
+seeds.rb	db/seeds.rb	1;"	F	line:1
+session_store.rb	config/initializers/session_store.rb	1;"	F	line:1
+sessions_controller.rb	app/controllers/api/v1/sessions_controller.rb	1;"	F	line:1
+sessions_helper.rb	app/helpers/api/v1/sessions_helper.rb	1;"	F	line:1
+setup	bin/setup	1;"	F	line:1
+show	app/controllers/api/v1/users_controller.rb	/^  def show$/;"	f	line:4	class:Api
+spring	bin/spring	1;"	F	line:1
+spring.rb	config/spring.rb	1;"	F	line:1
+system!	bin/setup	/^def system!(*args)$/;"	f	line:9
+system!	bin/update	/^def system!(*args)$/;"	f	line:9
+test.rb	config/environments/test.rb	1;"	F	line:1
+test_helper.rb	test/test_helper.rb	1;"	F	line:1
+this.App	app/assets/javascripts/cable.js	/^  this.App || (this.App = {});$/;"	o	line:9
+unauthenticated!	app/controllers/api/v1/base_controller.rb	/^  def unauthenticated!$/;"	f	line:25	class:Api
+update	app/controllers/api/v1/users_controller.rb	/^  def update$/;"	f	line:8	class:Api
+update	bin/update	1;"	F	line:1
+update_params	app/controllers/api/v1/users_controller.rb	/^  def update_params$/;"	f	line:16	class:Api
+user.rb	app/models/user.rb	1;"	F	line:1
+user_test.rb	test/models/user_test.rb	1;"	F	line:1
+users_controller.rb	app/controllers/api/v1/users_controller.rb	1;"	F	line:1
+users_helper.rb	app/helpers/api/v1/users_helper.rb	1;"	F	line:1
+wrap_parameters.rb	config/initializers/wrap_parameters.rb	1;"	F	line:1
